@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="ngSwipeLeftExample">
+<head>
+	<meta charset="UTF-8">
+	<title>Example - example-example116-production</title>
+
+	<script src="dataJsonVar.js"></script>
+	<script src="angular.js"></script>
+	<script src="angular-touch.js"></script>
+	<script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+	<link rel="stylesheet" type="text/css" href="bower_components/angular-ui-grid/ui-grid.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body ng-controller="mainCtrl">
+	<button class="btn btn-primary" ng-click="getData()">getData</button>
+
+	<div ui-grid="gridOptions" class="myGrid"></div>
+
+	<div ng-show="!showActions" ng-swipe-left="showActions = true">
+		Some list content, like an email in the inbox
+	</div>
+	<div ng-show="showActions" ng-swipe-right="showActions = false">
+		<button ng-click="reply()">Reply</button>
+		<button ng-click="delete()">Delete</button>
+	</div>
+
+
+
+</body>
+</html>

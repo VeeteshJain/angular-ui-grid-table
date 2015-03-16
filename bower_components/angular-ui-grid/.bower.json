@@ -1,0 +1,15 @@
+{
+  "name": "angular-ui-grid",
+  "homepage": "https://github.com/angular-ui/bower-ui-grid",
+  "version": "3.0.0-rc.7",
+  "_release": "3.0.0-rc.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0-rc.7",
+    "commit": "22edc2928e52620d299a0821b693783e8e8b6014"
+  },
+  "_source": "git://github.com/angular-ui/bower-ui-grid.git",
+  "_target": "3.0.0-rc.7",
+  "_originalSource": "angular-ui-grid",
+  "_direct": true
+}
